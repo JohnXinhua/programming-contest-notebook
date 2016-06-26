@@ -1,7 +1,7 @@
 // Assumes 0 is not a valid vertex
 // Vertexes should be numbered according to partitions ([1..N] [N+1..M])
 #define INF 0x3f3f3f3f
-#define MAX 200002
+#define MAX ??
 
 vector<int> G[MAX];
 queue<int> Q;
