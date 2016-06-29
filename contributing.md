@@ -15,6 +15,6 @@ When submitting a new implementation, check if your pull request follows this gu
 
 - Search previous submissions before making a new one, as yours may be a duplicate.
 - Make an individual pull request for each suggestion.
-- Make sure your code follows the pattern used in the other implementations.
+- Make sure your code follows the pattern used in the other implementations. (Check my [.vimrc](.vimrc))
 
 Thank you for your contributions!
