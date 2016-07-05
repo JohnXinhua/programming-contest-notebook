@@ -1,11 +1,11 @@
 // Assumes 0 is not a valid vertex
 // Vertexes should be numbered according to partitions ([1..N] [N+1..M])
+#define MAXN ??
 #define INF 0x3f3f3f3f
-#define MAX ??
 
-vector<int> G[MAX];
+vector<int> G[MAXN];
 queue<int> Q;
-int dist[MAX], match[MAX];
+int dist[MAXN], match[MAXN];
 int N, M;
 
 int bfs () {

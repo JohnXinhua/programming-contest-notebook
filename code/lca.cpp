@@ -1,8 +1,8 @@
-#define MAX ??
-#define LOGMAX ??
+#define MAXN ??
+#define LOGMAXN ??
 
-vector<int> G[MAX];
-int L[MAX], P[MAX][LOGMAX], T[MAX];
+vector<int> G[MAXN];
+int L[MAXN], P[MAXN][LOGMAXN], T[MAXN];
 int N;
 
 void process_anc() {
@@ -59,7 +59,7 @@ T[0] = -1;
 
 foreach node set values accordingly
 T[i] = father of node i;
-L[i] = level of node i;
+L[i] = level of node i; level can be set via dfs to root tree
 
 call process_anc() to compute lca tree
 */

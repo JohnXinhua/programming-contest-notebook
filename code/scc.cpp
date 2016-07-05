@@ -1,13 +1,13 @@
 // I is index, LL is low link and OS is on stack
 // idx and count start as 0, I and LL as -1 and OS as false
 #define min(a, b) ((a) < (b))?(a):(b)
-#define MAX ??
+#define MAXN ??
 
 int N, M, idx;
-int I[MAX], LL[MAX];
-bool OS[MAX];
+int I[MAXN], LL[MAXN];
+bool OS[MAXN];
 stack<int> S;
-vector<int> G[MAX];
+vector<int> G[MAXN];
 
 void strong_connect (int v) {
     int w;
