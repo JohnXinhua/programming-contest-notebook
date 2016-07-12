@@ -6,7 +6,7 @@ int D[MAXN], P[MAXN];
 // first is vertex and second is weight
 vector< pair<int, int> > G[MAXN];
 
-true bellman_ford(int s) {
+bool bellman_ford(int s) {
     memset(D, 0x3f, sizeof(D)); 
     memset(P, -1, sizeof(P));
     D[s] = 0;
@@ -36,4 +36,5 @@ true bellman_ford(int s) {
             }
         }
     }
+    return true;
 }
