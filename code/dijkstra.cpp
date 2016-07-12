@@ -1,6 +1,6 @@
 #define MAXN ??
 #define INF 0x3f3f3f3f
-int D[MAXN][MAXN];
+int D[MAXN];
 bool V[MAXN];
 int N;
 vector< pair<int, int> > G[MAXN];
