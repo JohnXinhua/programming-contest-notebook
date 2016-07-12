@@ -1,6 +1,6 @@
 // I is index, LL is low link and OS is on stack
 // idx and count start as 0, I and LL as -1 and OS as false
-#define min(a, b) ((a) < (b))?(a):(b)
+#define min(a, b) (((a) < (b))?(a):(b))
 #define MAXN ??
 
 int N, M, idx;
