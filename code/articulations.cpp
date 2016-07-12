@@ -3,7 +3,7 @@
 int N, D[MAXN], P[MAXN], L[MAXN], A[MAXN];
 vector<int> G[MAXN];
 
-int art(int u, int d) {
+void art(int u, int d) {
     int low = D[u] = d, cc = 0, is_art = 0;
     for (int i = 0; i < G[u].size(); i++) {
         int v = G[u][i];
@@ -25,5 +25,5 @@ void get_art() {
     memset(D, 0, sizeof(D));
     memset(L, 0, sizeof(L));
     memset(P, 0, sizeof(P));
-    dfs(1, 0);
+    art(1, 0);
 }
